@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+	<section id="fh5co-home" data-section="home" style="background-image: url({% static 'disorder/images/obschaya.png' %});" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<h1 class="to-animate">Я в беспорядке</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section id="fh5co-home" data-section="home" style="background-image: url({% static 'disorder/images/hand.jpg' %});" data-stellar-background-ratio="0.5">
+        <div class="gradient"></div>
+        <div class="container">
+            <div class="text-wrap">
+                <div class="text-inner">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h2 class="to-animate">ПРОЕКТ «Я В БЕСПОРЯДКЕ» НАЦЕЛЕН НА УСТАНОВЛЕНИЕ ДИАЛОГА МЕЖДУ ОБЩЕСТВОМ И ЛЮДЬМИ С МЕНТАЛЬНЫМИ ОСОБЕННОСТЯМИ.</h2>
+                            <h1 class="to-animate">Протяни руку</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fh5co-home" data-section="home" style="background-image: url({% static 'disorder/images/project-6.jpg' %});" data-stellar-background-ratio="0.5">
+        <div class="gradient"></div>
+        <div class="container">
+            <div class="text-wrap">
+                <div class="text-inner">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h2 class="to-animate">Желанию помочь всегда должно предшествовать желание понять человека. За каждым диагнозом есть непохожая на другие история и своя борьба за право на полноценную жизнь.
+
+                                Как без помощи общества, так и без готовности больного открыться, диалог невозможен. В проекте будут представлены четыре ключевых истории – абсолютно разные люди, разные возраста и разные диагнозы. Эти истории объединяют желания поделиться своей историей болезни и сломать сложившиеся стереотипы о психически нездоровых людях.
+
+                                За каждой закрытой дверью находится открытая для Вас история, понять которую способны только Вы.</h2>
+
+                            <audio controls>
+                                <source src="{% static 'disorder/audio/vvodnaya_chast.mp3' %}">
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{#    VIDEO#}
+{#    <section id="fh5co-home" data-section="home" data-stellar-background-ratio="0.5">#}
+    <div id="corridorofchoice">
+        <a href='patient1'><div id='door1'></div></a>
+        <a href='patient2'><div id='door2'></div></a>
+        <a href='patient3'><div id='door3'></div></a>
+        <a href='patient4'><div id='door4'></div></a>
+        <a href='starttherapy'><div id='doortherapy'></div></a>
+        <a href='consultdoctor'><div id='doordoctor'></div></a>
+
+        <video autoplay="autoplay" loop="loop" width="100%">
+            <source src="{% static 'disorder/videos/clickablecorridor.mp4' %}" type="video/mp4" />
+        </video>
+    </div>
+{#    </section>#}
+{#    END VIDEO#}
+
+    <section id="fh5co-home" data-section="home" style="background-image: url({% static 'disorder/images/project-6.jpg' %});" data-stellar-background-ratio="0.5">
+        <div class="gradient"></div>
+        <div class="container">
+            <div class="text-wrap">
+                <div class="text-inner">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <h2 class="to-animate">
+                                «Я в беспорядке» | Проект о человеке
+                                © Лейла Аль-Шамири
+                                alshamiri.lilya@mail.ru
+                                Санкт-Петербург
+                                2020
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+{% endblock %}
