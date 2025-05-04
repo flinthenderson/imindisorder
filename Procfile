@@ -1,1 +1,1 @@
-web: gunicorn disorder.wsgi
+web: gunicorn disorderproject.wsgi
