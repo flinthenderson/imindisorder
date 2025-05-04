@@ -1,1 +1,1 @@
-web: gunicorn imindisorder.wsgi
+web: gunicorn disorder.wsgi
