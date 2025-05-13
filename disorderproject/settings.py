@@ -25,7 +25,7 @@ SECRET_KEY = '^b$egp#^@8&n=q@o6bb_x2(vwn5f^306tsqa2h)_om3b_1b4id'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ivbesporyadke.site', 'www.ivbesporyadke.site', '127.0.0.1', 'imindisorder.onrender.com']
+ALLOWED_HOSTS = ['ivbesporyadke.site', 'www.ivbesporyadke.site', '127.0.0.1', 'imindisorder.onrender.com', 'https://yavbesporyadke.onrender.com']
 
 
 # Application definition
